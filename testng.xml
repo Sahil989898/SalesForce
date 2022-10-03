@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Regression">
+  <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.salesforce.test.tests.SalesforceAutomation">
+      <methods>
+      <exclude name="LoginErrorMessage"/>                      
+     	 <exclude name="LoginToSalesForce"/> 
+	<exclude name="CheckRememberMe"/>
+		<exclude name="Chrome4A"/>
+	<exclude name="ValidateLoginErrorMessage"/>
+		<exclude name="TC05"/>
+	<exclude name="TC06"/>
+		<exclude name="TC07"/>
+	<exclude name="TC08"/>
+		<exclude name="TC09"/>
+	<exclude name="TC10CreateAccount"/>
+		<exclude name="TC11Creatnewview"/>
+	<exclude name="TC12Editview"/>
+		<exclude name="TC13MergeAccounts"/>
+	<exclude name="TC14"/>
+		<exclude name="TC15"/>
+	<exclude name="TC16"/>
+		<exclude name="TC17"/>
+	<exclude name="TC18"/>
+		<exclude name="TC19"/>
+	<exclude name="TC20LeadTab"/>
+		<exclude name="TC21leadsselectvalue"/>
+	<exclude name="TC22defaultview"/>
+		<exclude name="TC23"/>
+	<exclude name="TC24"/>
+		<exclude name="TC25"/>
+	<exclude name="TC26"/>
+		<exclude name="TC27"/>
+	<exclude name="TC28"/>
+		<exclude name="TC29"/>
+	<exclude name="TC30"/>
+		<exclude name="TC31"/>
+	<exclude name="TC32"/>
+		<exclude name="TC33"/>
+	<exclude name="TC34"/>
+		<exclude name="TC35"/>
+	<exclude name="TC36"/>
+		<include name="TC37"/>
+      </methods>
+      </class>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
